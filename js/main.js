@@ -15,7 +15,7 @@ function init() {
     //const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
     var loader = new THREE.TextureLoader();
     loader.setCrossOrigin("");
-    var mapTexture = loader.load("https://i1.sndcdn.com/artworks-GMhtUfxEyczZM8Gl-IhPL5Q-t500x500.jpg");
+    var mapTexture = loader.load("https://i1.sndcdn.com/artworks-GMhtUfxEyczZM8Gl-IhPL5Q-t500x500.jpg"); // go image
     const material = new THREE.MeshBasicMaterial({ map: mapTexture });
     cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
